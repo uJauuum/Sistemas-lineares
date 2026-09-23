@@ -2,8 +2,6 @@ import streamlit as st
 
 st.title("Atividade Matematica computacional")
 
-st.write("by: Otavio, Vitor, João e Erick")
-
 # Escolher tamanho
 n = st.number_input(
     "Escolha o tamanho do sistema:",
@@ -138,3 +136,5 @@ if st.button("🚀 Resolver sistema"):
 
             for i in range(n):
                 st.success(f"x{i+1} = {x[i]:.2f}")
+                
+st.write("by: Otavio, Vitor, João e Erick")
